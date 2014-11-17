@@ -49,18 +49,23 @@ namespace Midi
     {
         /// <summary>General MIDI Control--See MIDI spec for details.</summary>
         ModulationWheel = 1,
+        /// <summary>General MIDI Control--Modwheel.</summary>
         CC1 = 1,
-        /// <summary>General MIDI Control--See MIDI spec for details.</summary>
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC2 = 2,  
         /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
         CC3 = 3,
         /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
         CC4 = 4,
         /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
         CC5 = 5,
+        /// <summary>General MIDI Control--DataEntryMSB</summary>
         DataEntryMSB = 6,
+        /// <summary>General MIDI Control--See MIDI spec for details.</summary>
         CC6 = 6,
         /// <summary>General MIDI Control--See MIDI spec for details.</summary>
         Volume = 7,
+        /// <summary>General MIDI Control--Volume.</summary>
         CC7 = 7,
         /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
         CC8 = 8,
@@ -68,9 +73,11 @@ namespace Midi
         CC9 = 9,
         /// <summary>General MIDI Control--See MIDI spec for details.</summary>
         Pan = 10,
+        /// <summary>General MIDI Control--Pan.</summary>
         CC10 = 10,
         /// <summary>General MIDI Control--See MIDI spec for details.</summary>
         Expression = 11,
+        /// <summary>General MIDI Control--Expression.</summary>
         CC11 = 11,
         /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
         CC12 = 12,
@@ -126,7 +133,9 @@ namespace Midi
         CC37 = 37,
         /// <summary>General MIDI Control--See MIDI spec for details.</summary>
         DataEntryLSB = 38,
+        /// <summary>General MIDI Control--DataEntryLSB.</summary>
         CC38 = 38,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
         CC39 = 39,
         /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
         CC40 = 40,
@@ -179,6 +188,7 @@ namespace Midi
         /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
         /// <summary>General MIDI Control--See MIDI spec for details.</summary>
         SustainPedal = 64,
+        /// <summary>General MIDI Control--SustainPedal.</summary>
         CC64 = 64,
         /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
         CC65 = 65,
@@ -234,33 +244,43 @@ namespace Midi
         CC90 = 90,
         /// <summary>General MIDI Control--See MIDI spec for details.</summary>
         ReverbLevel = 91,
+        /// <summary>General MIDI Control--See MIDI spec for details.</summary>
         CC91 = 91,
         /// <summary>General MIDI Control--See MIDI spec for details.</summary>
         TremoloLevel = 92,
+        /// <summary>General MIDI Control--See MIDI spec for details.</summary>
         CC92 = 92,
         /// <summary>General MIDI Control--See MIDI spec for details.</summary>
         ChorusLevel = 93,
+        /// <summary>General MIDI Control--See MIDI spec for details.</summary>
         CC93 = 93,
         /// <summary>General MIDI Control--See MIDI spec for details.</summary>
         CelesteLevel = 94,
+        /// <summary>General MIDI Control--See MIDI spec for details.</summary>
         CC94 = 94,
         /// <summary>General MIDI Control--See MIDI spec for details.</summary>
         PhaserLevel = 95,
+        /// <summary>General MIDI Control--See MIDI spec for details.</summary>
         CC95 = 95,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
         CC96 = 96,
         /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
         CC97 = 97,
         /// <summary>General MIDI Control--See MIDI spec for details.</summary>
         NonRegisteredParameterLSB = 98,
+        /// <summary>General MIDI Control--See MIDI spec for details.</summary>
         CC98 = 98,
         /// <summary>General MIDI Control--See MIDI spec for details.</summary>
         NonRegisteredParameterMSB = 99,
+        /// <summary>General MIDI Control--See MIDI spec for details.</summary>
         CC99 = 99,
         /// <summary>General MIDI Control--See MIDI spec for details.</summary>
         RegisteredParameterNumberLSB = 100,
+        /// <summary>General MIDI Control--See MIDI spec for details.</summary>
         CC100 = 100,
         /// <summary>General MIDI Control--See MIDI spec for details.</summary>
         RegisteredParameterNumberMSB = 101,
+        /// <summary>General MIDI Control--See MIDI spec for details.</summary>
         CC101 = 101,
         /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
         CC102 = 102,
@@ -302,10 +322,13 @@ namespace Midi
         CC120 = 120,
         /// <summary>General MIDI Control--See MIDI spec for details.</summary>
         AllControllersOff = 121,
+        /// <summary>General MIDI Control--See MIDI spec for details.</summary>
         CC121 = 121,
         /// <summary>General MIDI Control--See MIDI spec for details.</summary>
         AllNotesOff = 123,
+        /// <summary>General MIDI Control--See MIDI spec for details.</summary>
         CC123 = 123,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
         CC124 = 124,
         /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
         CC125 = 125,
