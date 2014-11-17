@@ -49,40 +49,270 @@ namespace Midi
     {
         /// <summary>General MIDI Control--See MIDI spec for details.</summary>
         ModulationWheel = 1,
+        CC1 = 1,
         /// <summary>General MIDI Control--See MIDI spec for details.</summary>
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC3 = 3,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC4 = 4,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC5 = 5,
         DataEntryMSB = 6,
+        CC6 = 6,
         /// <summary>General MIDI Control--See MIDI spec for details.</summary>
         Volume = 7,
+        CC7 = 7,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC8 = 8,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC9 = 9,
         /// <summary>General MIDI Control--See MIDI spec for details.</summary>
         Pan = 10,
+        CC10 = 10,
         /// <summary>General MIDI Control--See MIDI spec for details.</summary>
         Expression = 11,
+        CC11 = 11,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC12 = 12,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC13 = 13,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC14 = 14,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC15 = 15,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC16 = 16,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC17 = 17,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC18 = 18,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC19 = 19,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC20 = 20,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC21 = 21,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC22 = 22,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC23 = 23,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC24 = 24,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC25 = 25,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC26 = 26,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC27 = 27,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC28 = 28,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC29 = 29,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC30 = 30,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC31 = 31,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC32 = 32,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC33 = 33,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC34 = 34,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC35 = 35,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC36 = 36,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC37 = 37,
         /// <summary>General MIDI Control--See MIDI spec for details.</summary>
         DataEntryLSB = 38,
+        CC38 = 38,
+        CC39 = 39,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC40 = 40,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC41 = 41,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC42 = 42,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC43 = 43,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC44 = 44,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC45 = 45,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC46 = 46,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC47 = 47,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC48 = 48,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC49 = 49,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC50 = 50,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC51 = 51,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC52 = 52,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC53 = 53,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC54 = 54,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC55 = 55,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC56 = 56,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC57 = 57,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC58 = 58,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC59 = 59,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC60 = 60,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC61 = 61,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC62 = 62,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC63 = 63,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
         /// <summary>General MIDI Control--See MIDI spec for details.</summary>
         SustainPedal = 64,
+        CC64 = 64,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC65 = 65,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC66 = 66,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC67 = 67,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC68 = 68,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC69 = 69,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC70 = 70,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC71 = 71,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC72 = 72,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC73 = 73,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC74 = 74,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC75 = 75,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC76 = 76,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC77 = 77,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC78 = 78,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC79 = 79,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC80 = 80,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC81 = 81,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC82 = 82,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC83 = 83,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC84 = 84,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC85 = 85,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC86 = 86,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC87 = 87,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC88 = 88,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC89 = 89,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC90 = 90,
         /// <summary>General MIDI Control--See MIDI spec for details.</summary>
         ReverbLevel = 91,
+        CC91 = 91,
         /// <summary>General MIDI Control--See MIDI spec for details.</summary>
         TremoloLevel = 92,
+        CC92 = 92,
         /// <summary>General MIDI Control--See MIDI spec for details.</summary>
         ChorusLevel = 93,
+        CC93 = 93,
         /// <summary>General MIDI Control--See MIDI spec for details.</summary>
         CelesteLevel = 94,
+        CC94 = 94,
         /// <summary>General MIDI Control--See MIDI spec for details.</summary>
         PhaserLevel = 95,
+        CC95 = 95,
+        CC96 = 96,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC97 = 97,
         /// <summary>General MIDI Control--See MIDI spec for details.</summary>
         NonRegisteredParameterLSB = 98,
+        CC98 = 98,
         /// <summary>General MIDI Control--See MIDI spec for details.</summary>
         NonRegisteredParameterMSB = 99,
+        CC99 = 99,
         /// <summary>General MIDI Control--See MIDI spec for details.</summary>
         RegisteredParameterNumberLSB = 100,
+        CC100 = 100,
         /// <summary>General MIDI Control--See MIDI spec for details.</summary>
         RegisteredParameterNumberMSB = 101,
+        CC101 = 101,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC102 = 102,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC103 = 103,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC104 = 104,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC105 = 105,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC106 = 106,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC107 = 107,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC108 = 108,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC109 = 109,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC110 = 110,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC111 = 111,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC112 = 112,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC113 = 113,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC114 = 114,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC115 = 115,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC116 = 116,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC117 = 117,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC118 = 118,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC119 = 119,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC120 = 120,
         /// <summary>General MIDI Control--See MIDI spec for details.</summary>
         AllControllersOff = 121,
+        CC121 = 121,
         /// <summary>General MIDI Control--See MIDI spec for details.</summary>
-        AllNotesOff = 123
+        AllNotesOff = 123,
+        CC123 = 123,
+        CC124 = 124,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC125 = 125,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC126 = 126,
+        /// <summary>Not a part of General MIDI Control--See your device manual details.</summary>
+        CC127 = 127
     }
 
     /// <summary>
